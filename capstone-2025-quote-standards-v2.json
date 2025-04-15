@@ -1,0 +1,628 @@
+{
+  "services": {
+    "geospatialAI": [
+      {
+        "name": "SatelliteImageAnalysis",
+        "price": 1200,
+        "label": "Satellite Image Analysis with AI",
+        "description": "Custom deep learning solutions for satellite imagery classification, segmentation, and anomaly detection",
+        "category": "ai",
+        "developmentTime": 36,
+        "deliverables": [
+          "Custom trained model on your imagery",
+          "Web dashboard for uploading and analyzing new images",
+          "API for automated processing pipelines",
+          "Technical documentation and training"
+        ],
+        "useCases": [
+          "Agricultural crop health monitoring",
+          "Urban development tracking",
+          "Disaster damage assessment",
+          "Environmental change monitoring"
+        ]
+      },
+      {
+        "name": "GeospatialLLM",
+        "price": 1400,
+        "label": "Geospatial Large Language Models",
+        "description": "Fine-tuned LLMs for geospatial content understanding, query processing, and location-based insights generation",
+        "category": "ai",
+        "developmentTime": 40,
+        "deliverables": [
+          "Custom-tuned LLM with geospatial awareness",
+          "API for natural language geospatial queries",
+          "Integration with existing GIS databases",
+          "Location-aware knowledge base"
+        ],
+        "useCases": [
+          "Natural language GIS queries",
+          "Location-based intelligence reports",
+          "Automated geospatial content creation",
+          "Smart geofencing rule generation"
+        ]
+      },
+      {
+        "name": "ObjectDetection",
+        "price": 1100,
+        "label": "Geospatial Object Detection",
+        "description": "Custom CV models for detecting and classifying objects in aerial and satellite imagery",
+        "category": "ai",
+        "developmentTime": 32,
+        "deliverables": [
+          "Custom trained object detection model",
+          "Processing pipeline for batch analysis",
+          "Visualization dashboard",
+          "Export tools for GIS integration"
+        ],
+        "useCases": [
+          "Vehicle counting and traffic analysis",
+          "Infrastructure mapping",
+          "Wildlife monitoring",
+          "Maritime vessel tracking"
+        ]
+      },
+      {
+        "name": "ChangeDetection",
+        "price": 950,
+        "label": "AI-Powered Change Detection",
+        "description": "Temporal analysis of geospatial data to identify and classify changes over time",
+        "category": "ai",
+        "developmentTime": 28,
+        "deliverables": [
+          "Change detection algorithm customized to your data",
+          "Temporal visualization dashboard",
+          "Alert system for significant changes",
+          "Data export in standard GIS formats"
+        ],
+        "useCases": [
+          "Construction monitoring",
+          "Deforestation tracking",
+          "Urban expansion analysis",
+          "Coastal erosion monitoring"
+        ]
+      },
+      {
+        "name": "SpatialPredictiveModeling",
+        "price": 1500,
+        "label": "Spatial Predictive Modeling",
+        "description": "AI models that incorporate spatial relationships to predict future conditions or optimize resource allocation",
+        "category": "ai",
+        "developmentTime": 40,
+        "deliverables": [
+          "Custom spatial predictive model",
+          "Interactive prediction maps",
+          "Scenario testing interface",
+          "Model performance metrics dashboard"
+        ],
+        "useCases": [
+          "Retail location optimization",
+          "Disease spread prediction",
+          "Real estate value forecasting",
+          "Utility demand forecasting"
+        ]
+      }
+    ],
+    "automations": [
+      {
+        "name": "AIIntegration",
+        "price": 900,
+        "label": "AI Integration for Geospatial",
+        "description": "Seamless integration with major AI providers (OpenAI, Google, Anthropic) customized for processing geospatial data with sophisticated content understanding",
+        "category": "ai",
+        "developmentTime": 28,
+        "deliverables": [
+          "API integration layer for multiple AI services",
+          "Cost optimization controls",
+          "Custom prompt engineering for geospatial contexts",
+          "Usage analytics dashboard"
+        ],
+        "useCases": [
+          "Automated geospatial report generation",
+          "Location data enrichment",
+          "Smart geocoding and address verification",
+          "Natural language interfaces for GIS"
+        ]
+      },
+      {
+        "name": "RetrievalSystems",
+        "price": 1100,
+        "label": "Geospatial RAG Systems",
+        "description": "Advanced retrieval augmented generation systems specifically designed for geospatial data with vector search and context-aware retrieval",
+        "category": "ai",
+        "developmentTime": 32,
+        "deliverables": [
+          "Custom vector database for geospatial data",
+          "Query processing pipeline",
+          "Context-aware response generation",
+          "Admin interface for knowledge management"
+        ],
+        "useCases": [
+          "Location-aware knowledge bases",
+          "Smart city information systems",
+          "GIS data discovery tools",
+          "Contextual location recommendations"
+        ]
+      },
+      {
+        "name": "MultiAgentSystems",
+        "price": 1400,
+        "label": "Geospatial Multi-Agent Systems",
+        "description": "Orchestrated AI agent networks specifically designed for complex geospatial workflows with built-in spatial reasoning capabilities",
+        "category": "ai",
+        "developmentTime": 44,
+        "deliverables": [
+          "Custom multi-agent architecture",
+          "Agent communication framework",
+          "Workflow orchestration system",
+          "Monitoring and debugging tools"
+        ],
+        "useCases": [
+          "Automated urban planning analysis",
+          "Complex spatial decision support",
+          "Distributed environmental monitoring",
+          "Multi-factor site selection"
+        ]
+      },
+      {
+        "name": "InteractiveMaps",
+        "price": 800,
+        "label": "AI-Enhanced Interactive Maps",
+        "description": "Web-based interactive mapping applications with integrated AI for dynamic visualization and user-adaptive interfaces",
+        "category": "geospatial",
+        "developmentTime": 24,
+        "deliverables": [
+          "Custom web mapping application",
+          "User interaction analytics",
+          "AI-powered feature highlighting",
+          "Responsive design for all devices"
+        ],
+        "useCases": [
+          "Customer-facing store locators",
+          "Interactive tourism guides",
+          "Property search platforms",
+          "Smart city dashboards"
+        ]
+      },
+      {
+        "name": "GeoDataWrangling",
+        "price": 950,
+        "label": "AI-Assisted Geospatial Data Wrangling",
+        "description": "Intelligent ETL pipelines for geospatial data using GeoPandas, Shapely, and ML-enhanced data cleaning",
+        "category": "geospatial",
+        "developmentTime": 28,
+        "deliverables": [
+          "Custom ETL pipeline for your specific data",
+          "Data quality assessment tools",
+          "Anomaly detection system",
+          "Scheduled processing jobs"
+        ],
+        "useCases": [
+          "Multi-source data integration",
+          "Automated data cleaning and repair",
+          "Format conversion and standardization",
+          "Spatial database optimization"
+        ]
+      },
+      {
+        "name": "CustomGISolutions",
+        "price": 1200,
+        "label": "AI-Enhanced GIS Solutions",
+        "description": "Custom solutions integrating QGIS, ArcGIS Pro, and Python with AI capabilities for intelligent spatial analysis",
+        "category": "geospatial",
+        "developmentTime": 36,
+        "deliverables": [
+          "Custom GIS tools and plugins",
+          "Workflow automation scripts",
+          "Integration with existing systems",
+          "User training and documentation"
+        ],
+        "useCases": [
+          "Advanced spatial analysis automation",
+          "Custom cartography tools",
+          "Specialized industry solutions",
+          "Enterprise GIS optimization"
+        ]
+      },
+      {
+        "name": "GeoWorkflows",
+        "price": 950,
+        "label": "Intelligent Geospatial Workflows",
+        "description": "AI-optimized pipelines for processing, analyzing and visualizing geospatial data with smart validation and error handling",
+        "category": "automation",
+        "developmentTime": 28,
+        "deliverables": [
+          "Customized workflow system",
+          "Progress tracking dashboard",
+          "Error handling and recovery mechanisms",
+          "Performance optimization"
+        ],
+        "useCases": [
+          "Automated map production",
+          "Regular spatial analysis reporting",
+          "Multi-step data processing",
+          "Cross-department GIS collaboration"
+        ]
+      },
+      {
+        "name": "WorkflowAutomation",
+        "price": 1100,
+        "label": "Geospatial Digital Twins",
+        "description": "End-to-end digital twin systems for geospatial assets with AI-powered simulation and optimization capabilities",
+        "category": "automation",
+        "developmentTime": 32,
+        "deliverables": [
+          "Digital twin modeling system",
+          "Real-time data integration",
+          "Predictive simulation tools",
+          "Visualization dashboard"
+        ],
+        "useCases": [
+          "Infrastructure management",
+          "Urban planning",
+          "Traffic optimization",
+          "Utility network management"
+        ]
+      },
+      {
+        "name": "GeospatialModelDeploymentMonitoring",
+        "price": 1000,
+        "label": "Geospatial AI Model Deployment & Monitoring",
+        "description": "Setup and configuration of infrastructure for deploying, monitoring (performance, drift, data quality), and managing the lifecycle of geospatial AI models in production environments.",
+        "category": "devops",
+        "developmentTime": 28,
+        "deliverables": [
+          "Model deployment pipeline (e.g., containerized service, serverless function)",
+          "Monitoring dashboard for model performance and operational metrics",
+          "Alerting system for performance degradation or anomalies",
+          "Version control and rollback strategy",
+          "Documentation for deployment and monitoring procedures"
+        ],
+        "useCases": [
+          "Production deployment of predictive geospatial models",
+          "Ensuring reliability and accuracy of AI services over time",
+          "Automated retraining triggers based on performance",
+          "Compliance and audit logging for model predictions"
+        ]
+      },
+      {
+        "name": "AutomatedGeospatialDataIngestion",
+        "price": 950,
+        "label": "Automated Geospatial Data Ingestion Pipeline",
+        "description": "Design and implementation of robust, automated pipelines to ingest various geospatial data formats (vector, raster, point clouds, tabular) from diverse sources (APIs, FTP, cloud storage, databases) into a centralized system.",
+        "category": "automation",
+        "developmentTime": 28,
+        "deliverables": [
+          "Configurable data ingestion pipeline",
+          "Support for specified data sources and formats",
+          "Automated scheduling and execution",
+          "Data validation and basic quality checks upon ingestion",
+          "Logging and monitoring for ingestion jobs"
+        ],
+        "useCases": [
+          "Building a centralized geospatial data lake or warehouse",
+          "Regularly updating datasets from external providers",
+          "Integrating data from field collection devices",
+          "Standardizing data from multiple departments or sources"
+        ]
+      },
+      {
+        "name": "RealtimeGeospatialStreamProcessing",
+        "price": 1200,
+        "label": "Real-time Geospatial Stream Processing",
+        "description": "Development of systems to process and analyze high-velocity geospatial data streams in near real-time using technologies like Kafka, Flink, Spark Streaming, or cloud-native services.",
+        "category": "automation",
+        "developmentTime": 36,
+        "deliverables": [
+          "Stream processing architecture design",
+          "Implemented stream processing application",
+          "Integration with data stream sources (e.g., IoT sensors, vehicle GPS)",
+          "Real-time analytics or event detection logic",
+          "Dashboard for monitoring stream throughput and latency"
+        ],
+        "useCases": [
+          "Real-time vehicle tracking and fleet management",
+          "Live environmental sensor monitoring and alerting",
+          "Dynamic geofencing applications",
+          "Real-time location-based service updates"
+        ]
+      },
+      {
+        "name": "AutomatedGeospatialReporting",
+        "price": 1000,
+        "label": "Automated Geospatial Reporting System",
+        "description": "Building automated systems to generate customized reports (e.g., PDF, interactive web reports) incorporating maps, charts, statistical summaries, and AI-driven insights derived from geospatial data.",
+        "category": "automation",
+        "developmentTime": 32,
+        "deliverables": [
+          "Report generation engine/pipeline",
+          "Customizable report templates",
+          "Integration with required data sources",
+          "Scheduled report generation and distribution (e.g., email, portal)",
+          "User interface for on-demand report generation (optional)"
+        ],
+        "useCases": [
+          "Regular environmental compliance reporting",
+          "Monthly site monitoring summaries",
+          "Automated property assessment reports",
+          "Periodic market analysis reports with maps"
+        ]
+      }
+    ],
+    "apiIntegrations": [
+      {
+        "name": "ArcGIS",
+        "price": 600,
+        "label": "ArcGIS API Integration",
+        "description": "Enterprise-grade integration with Esri's ArcGIS Platform with custom workflows and automated data synchronization",
+        "category": "geospatial",
+        "developmentTime": 16,
+        "deliverables": [
+          "Custom ArcGIS API implementation",
+          "Data synchronization system",
+          "User authentication integration",
+          "Technical documentation"
+        ]
+      },
+      {
+        "name": "GoogleMaps",
+        "price": 500,
+        "label": "Google Maps API Integration",
+        "description": "Advanced integration of Google Maps Platform for location services, geocoding, and custom mapping functionality",
+        "category": "geospatial",
+        "developmentTime": 12,
+        "deliverables": [
+          "Custom Google Maps implementation",
+          "Mobile-ready components",
+          "Usage optimization tools",
+          "API billing dashboard"
+        ]
+      },
+      {
+        "name": "AWS",
+        "price": 700,
+        "label": "AWS GeoSpatial Services",
+        "description": "Comprehensive integration with Amazon Location Service, SageMaker geospatial capabilities, and serverless processing",
+        "category": "cloud",
+        "developmentTime": 18,
+        "deliverables": [
+          "AWS geospatial architecture",
+          "Serverless processing pipelines",
+          "Cost optimization tools",
+          "Infrastructure as code templates"
+        ]
+      },
+      {
+        "name": "Azure",
+        "price": 700,
+        "label": "Azure Maps & Spatial Services",
+        "description": "Full Microsoft Azure spatial services integration with ML capabilities and enterprise security features",
+        "category": "cloud",
+        "developmentTime": 18,
+        "deliverables": [
+          "Azure Maps integration",
+          "Azure spatial analytics setup",
+          "Power BI geospatial dashboards",
+          "Enterprise security configuration"
+        ]
+      },
+      {
+        "name": "Mapbox",
+        "price": 400,
+        "label": "Mapbox GL Integration",
+        "description": "Custom implementation of Mapbox GL JS for high-performance vector mapping with optimized data visualization",
+        "category": "geospatial",
+        "developmentTime": 10,
+        "deliverables": [
+          "Custom Mapbox implementation",
+          "Optimized vector tile pipelines",
+          "Custom style development",
+          "Performance tuning"
+        ]
+      },
+      {
+        "name": "OpenStreetMap",
+        "price": 500,
+        "label": "OpenStreetMap Data Pipeline",
+        "description": "Custom data extraction and processing pipeline for OpenStreetMap data with specialized filters and transformations",
+        "category": "geospatial",
+        "developmentTime": 12,
+        "deliverables": [
+          "OSM data extraction system",
+          "Custom filtering tools",
+          "Regular update mechanism",
+          "Data transformation pipeline"
+        ]
+      }
+    ],
+    "webDevelopment": [
+      {
+        "name": "ReactDashboard",
+        "price": 1400,
+        "label": "Geospatial React Dashboard",
+        "description": "Interactive React-based dashboards for visualizing and interacting with geospatial data, featuring responsive design and modular components",
+        "category": "frontend",
+        "developmentTime": 40,
+        "deliverables": [
+          "Custom React dashboard with geospatial components",
+          "Interactive maps and data visualization",
+          "Responsive design for all device sizes",
+          "Component documentation and user guide"
+        ],
+        "useCases": [
+          "Real-time monitoring of geospatial assets",
+          "Executive decision support interfaces",
+          "Field team coordination portals",
+          "Public-facing environmental monitoring"
+        ]
+      },
+      {
+        "name": "NextJSPortal",
+        "price": 1800,
+        "label": "Next.js Geospatial Portal",
+        "description": "Full-featured Next.js application with server-side rendering, static site generation, and dynamic routes optimized for geospatial content and AI integration",
+        "category": "frontend",
+        "developmentTime": 48,
+        "deliverables": [
+          "SEO-optimized Next.js application",
+          "Server-side and static rendering where appropriate",
+          "Authentication and user management",
+          "Geospatial data integration framework",
+          "Progressive Web App capabilities"
+        ],
+        "useCases": [
+          "Public-facing geospatial information portals",
+          "Enterprise GIS web applications",
+          "Interactive mapping platforms",
+          "AI-powered geospatial analysis tools"
+        ]
+      },
+      {
+        "name": "FastAPIBackend",
+        "price": 1100,
+        "label": "FastAPI Geospatial Backend",
+        "description": "High-performance FastAPI backend optimized for geospatial data processing with automatic OpenAPI documentation and async capabilities",
+        "category": "backend",
+        "developmentTime": 32,
+        "deliverables": [
+          "RESTful API with FastAPI",
+          "Geospatial data processing endpoints",
+          "Swagger/OpenAPI documentation",
+          "Authentication and authorization system",
+          "Deployment configuration"
+        ],
+        "useCases": [
+          "Geospatial data processing services",
+          "Real-time location analytics API",
+          "Integration layer for multiple data sources",
+          "Backend for mobile geospatial applications"
+        ]
+      },
+      {
+        "name": "DjangoGeospatialAPI",
+        "price": 1500,
+        "label": "Django GeoDjango API",
+        "description": "Django-based backend with GeoDjango for complex geospatial operations, PostGIS integration, and Django REST Framework API endpoints",
+        "category": "backend",
+        "developmentTime": 44,
+        "deliverables": [
+          "Django application with GeoDjango",
+          "PostgreSQL/PostGIS database integration",
+          "REST API with Django REST Framework",
+          "Admin interface for data management",
+          "Automated tests and documentation"
+        ],
+        "useCases": [
+          "Enterprise-grade geospatial platforms",
+          "Complex GIS data management systems",
+          "Multi-user collaborative mapping applications",
+          "Location-based content management systems"
+        ]
+      },
+      {
+        "name": "DockerDeployment",
+        "price": 700,
+        "label": "Containerized Deployment",
+        "description": "Docker containerization of geospatial applications with orchestration via Docker Compose or Kubernetes for scalable, consistent deployments",
+        "category": "devops",
+        "developmentTime": 16,
+        "deliverables": [
+          "Docker configuration for all application components",
+          "Docker Compose for local development",
+          "CI/CD pipeline configuration",
+          "Deployment documentation",
+          "Performance optimization for containers"
+        ],
+        "useCases": [
+          "Scalable geospatial processing systems",
+          "Reproducible analysis environments",
+          "Microservices architecture for geospatial platforms",
+          "Cloud-agnostic deployments"
+        ]
+      },
+      {
+        "name": "ServerlessDeployment",
+        "price": 600,
+        "label": "Serverless Geospatial Functions",
+        "description": "Serverless deployment of geospatial processing functions using Vercel, AWS Lambda, or other FaaS platforms for cost-effective scaling",
+        "category": "devops",
+        "developmentTime": 14,
+        "deliverables": [
+          "Serverless function architecture",
+          "Deployment configuration for chosen platform",
+          "API Gateway or equivalent setup",
+          "Cost optimization strategies",
+          "Monitoring and logging setup"
+        ],
+        "useCases": [
+          "On-demand geospatial processing",
+          "Pay-per-use geospatial APIs",
+          "Sporadic high-volume processing tasks",
+          "Edge processing for geospatial data"
+        ]
+      },
+      {
+        "name": "DataVisualization",
+        "price": 1200,
+        "label": "Geospatial Data Visualization",
+        "description": "Custom interactive visualizations for geospatial data using D3.js, deck.gl, or other specialized libraries with animation and drill-down capabilities",
+        "category": "frontend",
+        "developmentTime": 36,
+        "deliverables": [
+          "Custom visualization components",
+          "Interactive features (zoom, pan, select)",
+          "Time series animation capabilities",
+          "Integration with data sources",
+          "Export and sharing features"
+        ],
+        "useCases": [
+          "Advanced geospatial data exploration",
+          "Pattern and anomaly visualization",
+          "Temporal change visualization",
+          "Multi-layer data comparison"
+        ]
+      },
+      {
+        "name": "ProgressiveWebApp",
+        "price": 1500,
+        "label": "Geospatial Progressive Web App",
+        "description": "Offline-capable progressive web application for field operations with local data storage, synchronization, and mobile-optimized UI",
+        "category": "frontend",
+        "developmentTime": 44,
+        "deliverables": [
+          "Progressive Web App with offline capabilities",
+          "Local data storage and synchronization",
+          "Mobile-optimized UI with touch interactions",
+          "Device sensor integration (GPS, camera)",
+          "Push notifications for alerts"
+        ],
+        "useCases": [
+          "Field data collection applications",
+          "Mobile workforce management",
+          "Offline mapping for remote areas",
+          "Disaster response coordination"
+        ]
+      },
+      {
+        "name": "AuthSystem",
+        "price": 900,
+        "label": "Geospatial Authentication System",
+        "description": "Specialized authentication and authorization system with location-based permissions, role-based access control, and secure API key management",
+        "category": "security",
+        "developmentTime": 28,
+        "deliverables": [
+          "User authentication and management system",
+          "Role-based access control for geospatial data",
+          "Location-based permissions framework",
+          "API key management and security",
+          "OAuth integration for third-party access"
+        ],
+        "useCases": [
+          "Multi-tenant geospatial platforms",
+          "Restricted data access management",
+          "Compliance with geospatial data regulations",
+          "Partner API access control"
+        ]
+      }
+    ]
+  }
+}
